@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import { View } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -9,7 +10,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.SABrGpQi}></View></ScrollView>
+    }}><View style={styles.SABrGpQi}></View><TextInput style={styles.VDxynRRD}></TextInput></ScrollView>
     </SafeAreaView>;
 };
 
@@ -23,6 +24,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  VDxynRRD: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
   }
 });
 export default Untitled1;
